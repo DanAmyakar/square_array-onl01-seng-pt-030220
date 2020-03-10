@@ -1,6 +1,8 @@
 def square_array(array)
-  array.each{|rndm_num| puts rndm_num ** 2}
+  array.each{|num| puts num ** 2}
 end
+
+
 
 new_square_array = [ ]
 
