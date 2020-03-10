@@ -11,3 +11,5 @@ def new_square_array(array)
   new_squares << rndm_mun ** 2
   
 end
+
+print new_squares
