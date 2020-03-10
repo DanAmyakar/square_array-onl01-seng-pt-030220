@@ -13,3 +13,10 @@ def new_square_array(array)
   return new_square_array
 
 end
+def square_array(array)
+  new_array = []
+  
+  array.each{ |rndm_num| new_array << rndm_num ** 2}
+
+ return new_array
+end
