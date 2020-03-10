@@ -5,8 +5,8 @@ def square_array(array)
 end
 
 
-def new_square_array(array)
+def new_square_array(square_array)
   
-  array.collect{|rndm_nums| rndm_nums ** 2}
+  square_array.collect{|rndm_nums| rndm_nums ** 2}
   
 end
