@@ -1,5 +1,5 @@
 def square_array(array)
-  array.each{|rndm_num| rndm_num ** 2}.push
+  array.each{|rndm_num| rndm_num ** 2}
 end
 
 new_square_array = [ ]
